@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-redux-training-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactReduxTraining/ReactReduxTrainingWebPart.js",
+          "manifest": "./src/webparts/reactReduxTraining/ReactReduxTrainingWebPart.manifest.json"
+        }
+      ]
+    },
+    "react-redux-advanced-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactReduxAdvanced/ReactReduxAdvancedWebPart.js",
+          "manifest": "./src/webparts/reactReduxAdvanced/ReactReduxAdvancedWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactReduxTrainingWebPartStrings": "lib/webparts/reactReduxTraining/loc/{locale}.js",
+    "ReactReduxAdvancedWebPartStrings": "lib/webparts/reactReduxAdvanced/loc/{locale}.js"
+  }
+}

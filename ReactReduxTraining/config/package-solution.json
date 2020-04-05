@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-redux-training-client-side-solution",
+    "id": "d607cb4d-5dfe-47d4-8b5d-1fd84cd2e39c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/react-redux-training.sppkg"
+  }
+}
