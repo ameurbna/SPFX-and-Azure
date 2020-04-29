@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://amespfx.sharepoint.com/sites/SiteBookwithCT/Lists/Ordre/AllItems.aspx",
+      "fieldCustomizers": {
+        "SPFxRapport": {
+          "id": "80a662fc-5cd0-4aa3-bcc3-4f96ad5c5ab3",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "pieChart": {
+      "pageUrl": "https://amespfx.sharepoint.com/sites/SiteBookwithCT/Lists/Ordre/AllItems.aspx",
+      "fieldCustomizers": {
+        "SPFxRapport": {
+          "id": "80a662fc-5cd0-4aa3-bcc3-4f96ad5c5ab3",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}

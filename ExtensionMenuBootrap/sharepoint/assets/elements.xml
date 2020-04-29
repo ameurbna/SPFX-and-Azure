@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ExtensionMenuBootsrap"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="1e5fb7bb-35ec-4150-9dc8-212a88a52274"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+<Field ID="{060E50AC-E9C1-4D3C-B1F9-DE0BCAC300F6}"
+            Name="MenuKey"
+            DisplayName="Key"
+            Type="Text"
+            Required="FALSE"
+            Group="SPFx Columns" />
+
+    <Field ID="{943E7530-5E2B-4C02-8259-CCD93A9ECB18}"
+            Name="MenuHref"
+            DisplayName="Href"
+            Type="Text"
+            Required="FALSE"
+            Group="SPFx Columns"/>
+     <Field ID="{249b2b64-d36a-45bd-8ef7-3c66ef57ae9d}"
+            Name="MenuType"
+            DisplayName="Type"
+            Type="Choice"
+            Required="FALSE"
+            Group="SPFx Columns">
+      <CHOICES>
+        <CHOICE>Nav.Link</CHOICE>
+        <CHOICE>NavDropdown</CHOICE>
+        <CHOICE>NavDropdown.Item</CHOICE>
+        </CHOICES>
+    </Field>
+    <Field ID="{074e1564-ce03-4955-9f89-65f6869c0578}"
+            Name="MenuKeyParent"
+            DisplayName="Parent Key"
+            Type="Text"
+            Required="FALSE"
+            Group="SPFx Columns"/>
+    <Field ID="{a7fa75b1-3fc7-4802-bb88-82e968fe949e}"
+            Name="MenuOrdre"
+            DisplayName="Ordre"
+            Type="Integer"
+            Required="TRUE"
+            Group="SPFx Columns"/>
+    <ContentType ID="0x010042D0C1C200A14B6887742B6344675C8B"
+            Name="Menu ContentType"
+            Group="SPFx Content Types"
+            Description="Menu content type from web part solution">
+        <FieldRefs>
+            <FieldRef ID="{060E50AC-E9C1-4D3C-B1F9-DE0BCAC300F6}" />
+            <FieldRef ID="{943E7530-5E2B-4C02-8259-CCD93A9ECB18}" />
+            <FieldRef ID="{249b2b64-d36a-45bd-8ef7-3c66ef57ae9d}" />
+            <FieldRef ID="{074e1564-ce03-4955-9f89-65f6869c0578}" />
+            <FieldRef ID="{a7fa75b1-3fc7-4802-bb88-82e968fe949e}" />
+        </FieldRefs>
+    </ContentType>
+
+    <ListInstance
+            CustomSchema="schema.xml"
+            FeatureId="00bfea71-de22-43b2-a848-c05709900100"
+            Title="SPFX Menu"
+            Description="Menu nodes"
+            TemplateType="100"
+            Url="Lists/SPFxMenuList">
+    </ListInstance>
+
+</Elements>

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pie-chart-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/pieChart/PieChartFieldCustomizer.js",
+          "manifest": "./src/extensions/pieChart/PieChartFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PieChartFieldCustomizerStrings": "lib/extensions/pieChart/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

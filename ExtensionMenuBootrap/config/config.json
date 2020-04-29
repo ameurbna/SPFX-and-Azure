@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "extension-menu-bootsrap-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/extensionMenuBootsrap/ExtensionMenuBootsrapApplicationCustomizer.js",
+          "manifest": "./src/extensions/extensionMenuBootsrap/ExtensionMenuBootsrapApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ExtensionMenuBootsrapApplicationCustomizerStrings": "lib/extensions/extensionMenuBootsrap/loc/{locale}.js"
+  }
+}
