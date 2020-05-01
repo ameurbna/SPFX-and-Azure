@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://amespfx.sharepoint.com/sites/SiteBook2/Lists/Statistics/AllItems.aspx",
+      "customActions": {
+        "edb69682-16a4-4ecc-956f-1874e488faec": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "extensionSpfxCmdSetSendEmail": {
+      "pageUrl": "https://amespfx.sharepoint.com/sites/SiteBook2/Lists/Statistics/AllItems.aspx",
+      "customActions": {
+        "edb69682-16a4-4ecc-956f-1874e488faec": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

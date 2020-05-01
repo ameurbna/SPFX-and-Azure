@@ -1,0 +1,13 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.10.0",
+    "libraryName": "extension-spfx-cmd-set",
+    "libraryId": "a95245a1-f515-485e-9610-9500076597be",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}
