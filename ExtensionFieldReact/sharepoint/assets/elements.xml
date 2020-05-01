@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Field ID="{e6d22929-3ec8-4394-a805-e2d4853afed8}"
+            Name="SPFxRapport"
+            DisplayName="Rapport"
+            Type="Number"
+            Min="0"
+            Required="FALSE"
+            Group="SPFx Columns"
+            ClientSideComponentId="80a662fc-5cd0-4aa3-bcc3-4f96ad5c5ab3">
+    </Field>
+</Elements>

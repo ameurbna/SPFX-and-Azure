@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="ExtensionMenuBootsrap"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="1e5fb7bb-35ec-4150-9dc8-212a88a52274"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
