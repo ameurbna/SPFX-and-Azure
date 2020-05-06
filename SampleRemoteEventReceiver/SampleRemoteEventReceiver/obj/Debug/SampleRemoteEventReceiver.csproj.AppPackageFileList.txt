@@ -1,0 +1,1 @@
+G:\SPFX\SampleRemoteEventReceiver\SampleRemoteEventReceiver\bin\Debug\app.publish\1.0.0.3\SampleRemoteEventReceiver.app

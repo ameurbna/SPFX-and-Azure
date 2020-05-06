@@ -1,0 +1,4 @@
+G:\SPFX\SampleRemoteEventReceiver\SampleRemoteEventReceiver\bin\Debug\SampleRemoteEventReceiver.pdb
+G:\SPFX\SampleRemoteEventReceiver\SampleRemoteEventReceiver\obj\Debug\SampleRemoteEventReceiver.csprojAssemblyReference.cache
+G:\SPFX\SampleRemoteEventReceiver\SampleRemoteEventReceiver\obj\Debug\SampleRemoteEventReceiver.dll
+G:\SPFX\SampleRemoteEventReceiver\SampleRemoteEventReceiver\obj\Debug\SampleRemoteEventReceiver.pdb
