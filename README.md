@@ -1,5 +1,5 @@
 Hello in my Projects 
-I would like with this repository shared my knowledge and experiences on Sharepoint Framework and Azure Dev
+I would like with this repository shared with you my knowledge and experiences on Sharepoint Framework and Azure Dev
 
 <br/>
 <br/>
