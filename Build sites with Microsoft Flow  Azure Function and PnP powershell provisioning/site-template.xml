@@ -1,0 +1,85 @@
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.20.2004.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-537BEF9939D64936AB75A54F6ED872AD">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-537BEF9939D64936AB75A54F6ED872AD" Version="0" Scope="Undefined">
+      <pnp:ClientSidePages>
+        <pnp:ClientSidePage PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="SecondPage" ThumbnailUrl="" PageName="SecondPage.aspx">
+          <pnp:Header Type="Custom" ServerRelativeImageUrl="/_LAYOUTS/IMAGES/SLEEKTEMPLATEIMAGETILE.JPG" LayoutType="CutInShape" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[&#xD;&#xA;  {&#xD;&#xA;    &quot;id&quot;: &quot;i:0#.f|membership|ameur@trainingbna.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;upn&quot;: &quot;ameur@trainingBna.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;email&quot;: &quot;ameur@trainingBna.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;name&quot;: &quot;Ameur Ben Arab&quot;,&#xD;&#xA;    &quot;role&quot;: &quot;&quot;&#xD;&#xA;  }&#xD;&#xA;]" AuthorByLine="[&#xD;&#xA;  &quot;i:0#.f|membership|ameur@trainingbna.onmicrosoft.com&quot;&#xD;&#xA;]" AuthorByLineId="-1" />
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Custom" JsonControlData="{&quot;id&quot;: &quot;868ac3c3-cad7-4bd6-9a1c-14dc5cc8e823&quot;, &quot;instanceId&quot;: &quot;f56c06b8-6dc4-4cd8-b240-18f94f7d9a22&quot;, &quot;title&quot;: &quot;Météo&quot;, &quot;description&quot;: &quot;Affichez les conditions météo actuelles sur votre page&quot;, &quot;dataVersion&quot;: &quot;1.2&quot;, &quot;properties&quot;: {&quot;temperatureUnit&quot;:&quot;F&quot;,&quot;locations&quot;:[{&quot;countryName&quot;:&quot;France&quot;,&quot;name&quot;:&quot;Paris, Ville de Paris, France&quot;,&quot;latitude&quot;:48.856895446777344,&quot;longitude&quot;:2.350848913192749,&quot;showCustomizedDisplayName&quot;:false}]}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="868ac3c3-cad7-4bd6-9a1c-14dc5cc8e823" Order="1" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+            <pnp:Section Order="2" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Custom" JsonControlData="{&quot;id&quot;: &quot;dd45dae7-735c-49a6-b8fc-742d075eb590&quot;, &quot;instanceId&quot;: &quot;5c10bb61-4c11-4f98-b4df-6f95d723177e&quot;, &quot;title&quot;: &quot;ReactReduxTraining&quot;, &quot;description&quot;: &quot;ReactReduxTraining description&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {&quot;description&quot;:&quot;ReactReduxTraining&quot;}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="dd45dae7-735c-49a6-b8fc-742d075eb590" Order="1" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+        </pnp:ClientSidePage>
+		 <pnp:ClientSidePage PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="FirstPage" ThumbnailUrl="" PageName="FirstPage.aspx">
+          <pnp:Header Type="Custom" ServerRelativeImageUrl="/_LAYOUTS/IMAGES/SLEEKTEMPLATEIMAGETILE.JPG" LayoutType="CutInShape" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[&#xD;&#xA;  {&#xD;&#xA;    &quot;id&quot;: &quot;i:0#.f|membership|ameur@trainingbna.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;upn&quot;: &quot;ameur@trainingBna.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;email&quot;: &quot;ameur@trainingBna.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;name&quot;: &quot;Ameur Ben Arab&quot;,&#xD;&#xA;    &quot;role&quot;: &quot;&quot;&#xD;&#xA;  }&#xD;&#xA;]" AuthorByLine="[&#xD;&#xA;  &quot;i:0#.f|membership|ameur@trainingbna.onmicrosoft.com&quot;&#xD;&#xA;]" AuthorByLineId="-1" />
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Custom" JsonControlData="{&quot;id&quot;: &quot;868ac3c3-cad7-4bd6-9a1c-14dc5cc8e823&quot;, &quot;instanceId&quot;: &quot;f56c06b8-6dc4-4cd8-b240-18f94f7d9a22&quot;, &quot;title&quot;: &quot;Météo&quot;, &quot;description&quot;: &quot;Affichez les conditions météo actuelles sur votre page&quot;, &quot;dataVersion&quot;: &quot;1.2&quot;, &quot;properties&quot;: {&quot;temperatureUnit&quot;:&quot;F&quot;,&quot;locations&quot;:[{&quot;countryName&quot;:&quot;France&quot;,&quot;name&quot;:&quot;Paris, Ville de Paris, France&quot;,&quot;latitude&quot;:48.856895446777344,&quot;longitude&quot;:2.350848913192749,&quot;showCustomizedDisplayName&quot;:false}]}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="868ac3c3-cad7-4bd6-9a1c-14dc5cc8e823" Order="1" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+            <pnp:Section Order="2" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Custom" JsonControlData="{&quot;id&quot;: &quot;dd45dae7-735c-49a6-b8fc-742d075eb590&quot;, &quot;instanceId&quot;: &quot;5c10bb61-4c11-4f98-b4df-6f95d723177e&quot;, &quot;title&quot;: &quot;ReactReduxTraining&quot;, &quot;description&quot;: &quot;ReactReduxTraining description&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {&quot;description&quot;:&quot;ReactReduxTraining&quot;}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="dd45dae7-735c-49a6-b8fc-742d075eb590" Order="1" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+        </pnp:ClientSidePage>
+      </pnp:ClientSidePages>
+	  <pnp:Lists>
+		<pnp:ListInstance Title="SPFX Menu" Description="SPFX Menu" TemplateType="100" Url="Lists/SPFxMenuList" >
+		  <pnp:DataRows UpdateBehavior="Overwrite">
+			 <pnp:DataRow>
+				<pnp:DataValue FieldName="Title">Accueil</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuKey">Link1</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuHref">#</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuKeyParent"></pnp:DataValue>              
+				<pnp:DataValue FieldName="MenuOrdre">1</pnp:DataValue>              
+				<pnp:DataValue FieldName="MenuType">Nav.Link</pnp:DataValue>              
+			 </pnp:DataRow>
+		 <pnp:DataRow>
+				<pnp:DataValue FieldName="Title">Actualité</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuKey">Link2</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuHref">#</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuKeyParent"></pnp:DataValue>              
+				<pnp:DataValue FieldName="MenuOrdre">2</pnp:DataValue>              
+				<pnp:DataValue FieldName="MenuType">Nav.Link</pnp:DataValue>              
+			 </pnp:DataRow>
+			 <pnp:DataRow>
+				<pnp:DataValue FieldName="Title">Liens utiles</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuKey">Link4</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuHref">#</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuKeyParent"></pnp:DataValue>              
+				<pnp:DataValue FieldName="MenuOrdre">4</pnp:DataValue>              
+				<pnp:DataValue FieldName="MenuType">NavDropdown</pnp:DataValue>              
+			 </pnp:DataRow>
+			 <pnp:DataRow>
+				<pnp:DataValue FieldName="Title">Liste de mes taches</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuKey">Link5</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuHref">#</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuKeyParent">Link4</pnp:DataValue>              
+				<pnp:DataValue FieldName="MenuOrdre">5</pnp:DataValue>              
+				<pnp:DataValue FieldName="MenuType">NavDropdown.Item</pnp:DataValue>              
+			 </pnp:DataRow>
+			 <pnp:DataRow>
+				<pnp:DataValue FieldName="Title">Liste de mes RDV</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuKey">Link6</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuHref">#</pnp:DataValue>
+				<pnp:DataValue FieldName="MenuKeyParent">Link4</pnp:DataValue>              
+				<pnp:DataValue FieldName="MenuOrdre">6</pnp:DataValue>              
+				<pnp:DataValue FieldName="MenuType">NavDropdown.Item</pnp:DataValue>              
+			 </pnp:DataRow>
+			 </pnp:DataRows>
+        </pnp:ListInstance>
+		</pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
