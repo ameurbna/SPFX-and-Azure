@@ -1,0 +1,63 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "modern-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/modernForm/ModernFormWebPart.js",
+          "manifest": "./src/webparts/modernForm/ModernFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "app-custom-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/appCustom/AppCustomApplicationCustomizer.js",
+          "manifest": "./src/extensions/appCustom/AppCustomApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "cmd-custom-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/cmdCustom/CmdCustomFieldCustomizer.js",
+          "manifest": "./src/extensions/cmdCustom/CmdCustomFieldCustomizer.manifest.json"
+        }
+      ]
+    },
+    "list-cmd-set-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/listCmdSet/ListCmdSetCommandSet.js",
+          "manifest": "./src/extensions/listCmdSet/ListCmdSetCommandSet.manifest.json"
+        }
+      ]
+    },
+    "sample-list-with-edit-panel-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sampleListWithEditPanelForm/SampleListWithEditPanelFormWebPart.js",
+          "manifest": "./src/webparts/sampleListWithEditPanelForm/SampleListWithEditPanelFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-tasks-monitors-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myTasksMonitors/MyTasksMonitorsWebPart.js",
+          "manifest": "./src/webparts/myTasksMonitors/MyTasksMonitorsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ModernFormWebPartStrings": "lib/webparts/modernForm/loc/{locale}.js",
+    "AppCustomApplicationCustomizerStrings": "lib/extensions/appCustom/loc/{locale}.js",
+    "CmdCustomFieldCustomizerStrings": "lib/extensions/cmdCustom/loc/{locale}.js",
+    "ListCmdSetCommandSetStrings": "lib/extensions/listCmdSet/loc/{locale}.js",
+    "SampleListWithEditPanelFormWebPartStrings": "lib/webparts/sampleListWithEditPanelForm/loc/{locale}.js",
+    "MyTasksMonitorsWebPartStrings": "lib/webparts/myTasksMonitors/loc/{locale}.js"
+  }
+}
